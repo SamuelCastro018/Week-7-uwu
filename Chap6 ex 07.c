@@ -1,24 +1,24 @@
 #include <stdio.h>
 
-int corn;
+int nuts;
 int cornprice= 100;
 int total;
 
 int main(void){
-  printf("insert the kilograms of corn \n");
+  printf("insert the kilograms of nuts \n");
   scanf("%d", &corn);
 
 
 
-  if (corn >= 1 && corn <= 300 ){
-    total = corn * cornprice;
+  if (nuts >= 1 && nuts <= 300 ){
+    total = nuts * cornprice;
 
-    printf("the price of the corn is %d", total);
+    printf("the price of the nuts is %d", total);
   }
 
-  else if (corn > 300){
-    total = corn * 90;
-    printf("the price of the corn is %d", total);
+  else if (nuts > 300){
+    total = nuts * 90;
+    printf("the price of the nuts is %d", total);
   }
 	return 0;
 }
